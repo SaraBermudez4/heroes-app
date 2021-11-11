@@ -1,0 +1,80 @@
+/* body */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: url('https://images5.alphacoders.com/964/964482.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: helvetica;
+}
+
+/* Css navbar */
+
+nav {
+    background-color: rgb(119, 136, 153, 0.212);
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu .lista {
+    display: inline-block
+}
+
+.lista-r {
+    float: right;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+
+.lista-r a:hover {
+    background-color: tomato;
+}
+
+/* Css main */
+
+main {
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+img {
+    margin-top: 30px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+}
+
+/* Css form */
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background: red;
+    color: white;
+}
